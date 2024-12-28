@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="media/imgs/favicon-1.png" type="image/png" />
+
+      <!-- LINK PREVIEW TAGS -->
+      <meta property="og:title" content="waddle waddle" />
+      <meta property="og:description" content="get your glue today $iQuack" />
+      <meta property="og:url" content="index.html" />
+      <meta property="og:image" content="link-preview.jpg" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="$iQuack" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="$iQuack" />
+      <meta name="twitter:description" content="get your glue today $iQuack" />
+      <meta name="twitter:url" content="index.html" />
+      <meta name="twitter:image" content="link-preview.jpg" />
+      <!-- END OF LINK PREVIEW TAGS -->
+
+      <link rel="stylesheet" href="style-1.css" />
+      <link rel="stylesheet" href="welcome-style.css" />
+      <script
+         src="91bbcb1b14-1.js"
+         crossorigin="anonymous"
+         type="35cf6e73d8c930dfa3f95bce-text/javascript"
+      ></script>
+      <title>$Quack wif Boi</title>
+   </head>
+   <body>
+      <div id="root"></div>
+      <div class="centerer">
+         <div id="orientationAlert" style="display: none">
+            <div class="turnit">
+               <div class="glueturner"></div>
+               <p class="btn">turn ur device wide-ways</p>
+            </div>
+         </div>
+         <div id="welcomeScreen">
+            <div class="welcome-stuff">
+               <button id="enterButton" class="btn clickable">Enter</button>
+               <img src="media/imgs/intro.png" alt="duck an glue" />
+            </div>
+         </div>
+
+         <div id="videoScreen" style="display: none">
+            <video id="introVideo" width="800" autoplay="">
+               <source
+                  src="du5bgndtm/video/upload/v1712618919/adyxex6rpm5orbfzjvvh.mp4"
+                  type="video/mp4"
+               />
+               Video doesn't work because you sniffed too much glue.
+            </video>
+            <button id="goToMainSite" style="display: none">
+               Enter Website
+            </button>
+         </div>
+      </div>
+      <script
+         src="welcome-script.js"
+         type="35cf6e73d8c930dfa3f95bce-text/javascript"
+      ></script>
+      <!-- Google tag (gtag.js) -->
+      <script
+         async=""
+         src="https://www.googletagmanager.com/gtag/js?id=G-JSGM0S8Q71"
+         type="35cf6e73d8c930dfa3f95bce-text/javascript"
+      ></script>
+
+      <script
+         src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min-1.js"
+         data-cf-settings="35cf6e73d8c930dfa3f95bce-|49"
+         defer=""
+      ></script>
+
+      <script>
+         if (window.location.hostname === 'quackwifboi.xyz') {
+            const currentPath = window.location.href;
+
+            const script = document.createElement('script');
+            script.defer = true;
+            script.src = 'https://cloud.umami.is/script.js';
+            script.dataset.websiteId = '09348b1c-75f4-4004-871b-b615d47e4a27';
+            document.head.appendChild(script);
+
+            script.onload = () => {
+               if (
+                  currentPath.includes('?dexscreener') &&
+                  typeof umami !== 'undefined'
+               ) {
+                  umami.trackEvent('utm-dexscreener-visit', {
+                     type: 'utm',
+                     source: 'dexscreener',
+                     path: window.location.pathname
+                  });
+               }
+
+               if (
+                  currentPath.includes('?home') &&
+                  typeof umami !== 'undefined'
+               ) {
+                  umami.trackEvent('utm-tg-visit', {
+                     type: 'utm',
+                     source: 'tg',
+                     path: window.location.pathname
+                  });
+               }
+
+               if (
+                  currentPath.includes('?dextools') &&
+                  typeof umami !== 'undefined'
+               ) {
+                  umami.trackEvent('utm-dextools-visit', {
+                     type: 'utm',
+                     source: 'dextools',
+                     path: window.location.pathname
+                  });
+               }
+            };
+         }
+      </script>
+   </body>
+</html>

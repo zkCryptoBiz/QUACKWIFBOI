@@ -1,0 +1,488 @@
+﻿@font-face {
+   font-family: 'ducktype';
+   src: url('media/fonts/56661146037a125d1c8584b0112e8f94.woff2')
+      format('woff2');
+}
+
+@font-face {
+   font-family: 'ducktype-bold';
+   src: url('media/fonts/4b4a4c19bb873e444fc0f39d102353a1.woff2')
+      format('woff2');
+}
+
+* {
+   font-family: 'ducktype', Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #1b2021;
+   line-height: 1;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #a9d8ff;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.container {
+   max-width: 1400px;
+   width: calc(100vw - 20px);
+   margin: 0 auto;
+   padding: 0 10px;
+   box-sizing: border-box;
+   flex: 1;
+   overflow: hidden;
+}
+
+.centerer {
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   height: 100vh;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-radius: 16px;
+   margin: 20px auto;
+   box-sizing: border-box;
+   width: calc(100% - 20px);
+   background-color: #42893a;
+   position: relative;
+   border: 2px solid #1b2021;
+
+   @media (max-width: 1100px) {
+      flex-direction: column;
+   }
+}
+
+.header-logo {
+   transform: scaleX(-1);
+   position: absolute;
+   width: 100px;
+   top: -50px;
+   left: -90px;
+}
+
+h1 {
+   color: #0e7ee2;
+   /* -webkit-text-stroke-width: 0.25px;
+-webkit-text-stroke-color: #1b2021; */
+   margin: 0;
+   font-size: 38px;
+   text-shadow: -1px -1px 0 #1b2021, 1px -1px 0 #1b2021, -1px 1px 0 #1b2021,
+      1px 1px 0 #1b2021;
+
+   /* @media (min-width: 1024px) {
+    margin-left: 70px;
+  } */
+
+   @media (max-width: 1024px) {
+      margin-top: 16px;
+   }
+}
+
+.wif {
+   color: #f99a1c;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   @media (max-width: 768px) {
+      flex-direction: column;
+   }
+
+   @media (max-width: 1100px) {
+      padding-top: 16px;
+   }
+}
+
+a,
+nav a,
+.about a {
+   text-decoration: none;
+}
+
+.title {
+   @media (max-width: 1024px) {
+      margin-top: 16px;
+   }
+
+   @media (min-width: 1024px) {
+      top: 4px;
+      left: 68px;
+   }
+}
+
+.actions {
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+
+   margin-top: 5px;
+
+   @media (max-width: 768px) {
+      padding-top: 16px;
+   }
+}
+
+.address {
+   display: flex;
+   min-height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 16px;
+   padding: 10px 15px;
+   text-align: center;
+   font-size: 22px;
+   background-color: #f99a1c;
+   color: #1b2021;
+   border: 2px solid #1b2021;
+
+   @media (max-width: 768px) {
+      margin-top: 16px;
+   }
+   @media (max-width: 768px) {
+      font-size: 12px;
+   }
+}
+
+.btn {
+   min-height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 16px;
+   padding: 10px 15px;
+   text-align: center;
+   font-size: 24px;
+   background-color: #f99a1c;
+   color: #1b2021;
+   border: 2px solid #1b2021;
+}
+
+.clickable {
+   background-color: #f99a1c;
+   box-shadow: 0 3px #1b2021;
+   transform: translateY(-3px);
+}
+
+.clickable:hover {
+   background-color: #f1b668;
+   box-shadow: 0 5px #1b2021;
+   transform: translateY(-5px);
+   cursor: pointer;
+}
+
+.clickable:active {
+   background: #cf7e14;
+   box-shadow: 0 2px #1b2021;
+   transform: translateY(-2px);
+}
+
+nav .btn {
+   margin-left: 10px;
+}
+
+.btn-icon {
+   width: 20px;
+   height: auto;
+   stroke: #1b2021;
+   fill: #1b2021;
+}
+
+.hero {
+   position: relative;
+   width: 100%;
+   padding-top: 83.33%;
+}
+
+.hero-img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.hero img {
+   width: 100%;
+}
+
+.hero .duck {
+   z-index: 10;
+}
+
+.glueBottle {
+   position: absolute;
+   right: 30%;
+   bottom: 5%;
+   width: 25px !important;
+   height: auto;
+   opacity: 0;
+   display: block;
+   z-index: 5;
+}
+
+.drop-glue {
+   animation: dropAnimation 0.5s linear forwards;
+}
+
+@keyframes dropAnimation {
+   0% {
+      bottom: 5%;
+      opacity: 1;
+      transform: rotate(0deg);
+   }
+   80% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      bottom: -50%;
+      transform: rotate(90deg);
+   }
+}
+
+.content {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.card {
+   border-radius: 18px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   margin: 10px;
+   width: calc(50% - 20px);
+   padding: 20px;
+   background-color: #599959;
+   border: 2px solid #1b2021;
+   text-align: center;
+   position: relative;
+}
+
+.card img {
+   max-width: 80%;
+}
+
+.card.full-width {
+   width: calc(100% - 20px);
+}
+
+.card-button {
+   margin-top: 20px;
+}
+.card-button-title {
+   margin-bottom: 20px;
+}
+.abut-ticker {
+   position: absolute;
+   bottom: 0px;
+   right: 15px;
+}
+
+.nav2 {
+   display: flex;
+   width: calc(100% - 20px);
+   margin: 30px 10px;
+}
+
+.nav2 .btn {
+   flex: 1;
+   margin-right: 10px;
+}
+
+.nav2 .btn:last-child {
+   margin-right: 0;
+}
+
+.ca {
+   font-size: 24px;
+   word-break: break-all;
+}
+
+footer {
+   background-color: #42893a;
+   color: #1b2021;
+   font-size: 18px;
+   text-align: center;
+   padding: 6px 10px;
+   bottom: 0;
+   width: 100%;
+   border-top: 2px solid #1b2021;
+   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+   header,
+   .content {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   /* .header-logo {
+    top: -24px;
+    left: 20px;
+  } */
+
+   header h1,
+   header nav {
+      text-align: center;
+      margin-left: 0;
+   }
+   .card {
+      width: calc(100% - 20px);
+   }
+   .about p {
+      text-align: left;
+   }
+
+   footer {
+      font-size: 18px;
+      width: 100%;
+   }
+}
+
+@media (max-width: 468px) {
+   .nav2 {
+      flex-direction: column;
+      width: calc(100% - 20px);
+   }
+   .nav2 .tele {
+      order: 2;
+      margin: 0;
+      margin-bottom: 15px;
+   }
+   .nav2 .xapp {
+      order: 3;
+      margin: 0;
+   }
+   .nav2 .buy {
+      order: 1;
+      margin: 0;
+      margin-bottom: 15px;
+   }
+}
+
+.title {
+   position: relative;
+   font-family: 'ducktype-bold', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 420px) {
+   .header-logo {
+      display: none;
+   }
+}
+
+/* FLYING WIFFIN DUCK */
+
+.duck-fly {
+   height: 290px;
+   width: auto;
+   position: relative;
+}
+
+#flyingDuck {
+   width: 290px;
+   height: 290px;
+   position: absolute;
+   top: 25px; /* Starting position */
+   left: -40%;
+   background-image: url('media/imgs/duck-flying/duck-flys0.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   animation: flyCycle 0.3s steps(5) infinite, hover 0.6s ease-in-out infinite;
+   z-index: 10;
+   overflow: hidden;
+}
+
+#flyingDuck.crash {
+   animation: crash 0.3s steps(7) forwards;
+   left: 45%;
+}
+#flyingDuck img {
+   overflow: hidden;
+   transform: translateZ(0);
+}
+
+@keyframes flyCycle {
+   20% {
+      background-image: url('media/imgs/duck-flying/duck-flys1.png');
+   }
+   40% {
+      background-image: url('media/imgs/duck-flying/duck-flys2.png');
+   }
+   60% {
+      background-image: url('media/imgs/duck-flying/duck-flys3.png');
+   }
+   80% {
+      background-image: url('media/imgs/duck-flying/duck-flys4.png');
+   }
+   100% {
+      background-image: url('media/imgs/duck-flying/duck-flys0.png');
+   }
+}
+
+@keyframes hover {
+   0%,
+   100% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(-20px);
+   } /* Adjust for more/less hover */
+}
+
+@keyframes moveRight {
+   from {
+      left: -40%;
+   }
+   to {
+      left: 45%;
+   }
+}
+
+@keyframes crash {
+   0% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash0-1.png');
+   }
+   17% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash1-1.png');
+   }
+   34% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash2-1.png');
+   }
+   51% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash3-1.png');
+   }
+   69% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash4-1.png');
+   }
+   87% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash5-1.png');
+   }
+   100% {
+      background-image: url('media/imgs/duck-flying/duck-crash/duck-crash6-1.png');
+   }
+}
+
+#preloadedImages {
+   display: none;
+}
+.hidden {
+   width: 1px;
+   height: 1px;
+}

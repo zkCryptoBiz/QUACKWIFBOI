@@ -1,0 +1,112 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#videoScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* In case of any empty space */
+}
+
+#videoScreen video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Cover the entire viewport */
+}
+
+#orientationAlert {
+  text-align: center;
+}
+
+.welcome-stuff {
+  position: relative;
+  /* background-color: antiquewhite; */
+  width: 50%;
+  height: 50%;
+}
+
+.turnit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.turnit img {
+  width: 250px;
+  height: auto;
+}
+
+.turnit .btn {
+  margin-top: 20px;
+}
+
+.glueturner {
+  background-image: url("media/imgs/turnglue/turnglue0.png");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  transform-origin: 60% 58%;
+  animation: turnglue 2s linear infinite;
+}
+
+@keyframes turnglue {
+  0%,
+  100% {
+    background-image: url("media/imgs/turnglue/turnglue0.png");
+    transform: rotate(0deg);
+  }
+  10% {
+    background-image: url("media/imgs/turnglue/turnglue1.png");
+  }
+  20% {
+    background-image: url("media/imgs/turnglue/turnglue0.png");
+  }
+  30% {
+    background-image: url("media/imgs/turnglue/turnglue1.png");
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url("media/imgs/turnglue/turnglue1.png");
+    transform: rotate(-45deg);
+  }
+  60% {
+    background-image: url("media/imgs/turnglue/turnglue1.png");
+    transform: rotate(-90deg);
+  }
+  70% {
+    background-image: url("media/imgs/turnglue/turnglue0.png");
+    transform: rotate(-90deg);
+  }
+  80% {
+    transform: rotate(-90deg);
+  }
+  90% {
+    background-image: url("media/imgs/turnglue/turnglue0.png");
+    transform: rotate(-90deg);
+  }
+}
+
+#enterButton {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+
+.welcome-stuff img {
+  max-width: 600px;
+}

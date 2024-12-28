@@ -1,0 +1,100 @@
+Uri: https://boiwifduck.info/
+File Name: C:\Downloaded Web Sites\boiwifduck.info\index.htm
+Content Type: text/html
+
+Uri: https://boiwifduck.info/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Downloaded Web Sites\boiwifduck.info\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min-1.js
+Content Type: application/javascript
+
+Uri: https://boiwifduck.info/media/fonts/4b4a4c19bb873e444fc0f39d102353a1.woff2
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\fonts\4b4a4c19bb873e444fc0f39d102353a1.woff2
+Content Type: font/woff2
+
+Uri: https://boiwifduck.info/media/fonts/56661146037a125d1c8584b0112e8f94.woff2
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\fonts\56661146037a125d1c8584b0112e8f94.woff2
+Content Type: font/woff2
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash0.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash0-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash1.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash1-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash2.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash2-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash3.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash3-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash4.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash4-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash5.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash5-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-crash/duck-crash6.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-crash\duck-crash6-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-flys0.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-flys0.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-flys1.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-flys1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-flys2.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-flys2.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-flys3.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-flys3.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/duck-flying/duck-flys4.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\duck-flying\duck-flys4.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/favicon.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\favicon-1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/intro.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\intro.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/turnglue/turnglue0.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\turnglue\turnglue0.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/media/imgs/turnglue/turnglue1.png
+File Name: C:\Downloaded Web Sites\boiwifduck.info\media\imgs\turnglue\turnglue1.png
+Content Type: image/png
+
+Uri: https://boiwifduck.info/style.css
+File Name: C:\Downloaded Web Sites\boiwifduck.info\style-1.css
+Content Type: text/css
+
+Uri: https://boiwifduck.info/welcome-script.js
+File Name: C:\Downloaded Web Sites\boiwifduck.info\welcome-script.js
+Content Type: application/javascript
+
+Uri: https://boiwifduck.info/welcome-style.css
+File Name: C:\Downloaded Web Sites\boiwifduck.info\welcome-style.css
+Content Type: text/css
+
+Uri: https://kit.fontawesome.com/91bbcb1b14.js
+File Name: C:\Downloaded Web Sites\boiwifduck.info\91bbcb1b14-1.js
+Content Type: text/javascript
+
+Uri: https://res.cloudinary.com/du5bgndtm/video/upload/v1712618919/adyxex6rpm5orbfzjvvh.mp4
+File Name: C:\Downloaded Web Sites\boiwifduck.info\du5bgndtm\video\upload\v1712618919\adyxex6rpm5orbfzjvvh.mp4
+Content Type: video/mp4
+
